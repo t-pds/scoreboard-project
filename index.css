@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    
+}
+
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    height: 90px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 20px;
+}
+
+.buttons button, 
+.reset button {
+    background: none;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 6px;
+    height: 46px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button {
+    width: 56px;
+}
+
+.reset button {
+    padding: 0 16px;
+}
+
+.buttons button:hover,
+.reset button:hover {
+    background: rgba(154, 171, 216, 0.15);
+}
+
+.reset {
+    align-self: center;
+}
